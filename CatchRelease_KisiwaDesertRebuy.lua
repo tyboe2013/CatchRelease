@@ -71,7 +71,7 @@ if tblua:IsInWorld() == true then
                         tblua:Sleep(1000)
                         tblua:PressKey(0x1B)
                         tblua:Sleep(1000)
-						  if IsInFight() == false then
+						  if tblua:IsInFight() == false then
                           tblua:KeyDown(0x25)
                           tblua:Sleep(750)
                           tblua:PressKey(0x25)
